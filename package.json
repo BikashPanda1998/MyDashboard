@@ -1,5 +1,6 @@
 {
   "name": "chatapp",
+  "homepage": "https://BikashPanda1998.github.io/pcdashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.5",
     "chart.js": "^4.3.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-chat-engine": "^1.11.28",
@@ -21,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
