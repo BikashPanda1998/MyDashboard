@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.navbar .title h1 span{
+    color: #ffc107;
+    margin-left: 0.5rem;
+    letter-spacing: 0.2rem;
+    font-family: "Roboto";
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 8rem 1rem 1rem;
+    border-radius: 1rem;
+    background-color: #212121;
+}
+.search i{
+    color: #ffc107;
+}
+.search input{
+    background-color: transparent;
+   border: none;
+    border-radius: 1rem;
+    font-family: 'Roboto';
+    letter-spacing: 0.3rem;
+    color: #ffc107;
+}
+.search input::placeholder{
+    color: #ffc107;
+}

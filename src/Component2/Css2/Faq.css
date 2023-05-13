@@ -1,0 +1,30 @@
+.faqs_section .title h2{
+    color: #ffc107;
+    font-family: "Roboto";
+    letter-spacing: 0.3rem;
+}
+.faqs_section .faqm{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.faqs_section .faqm .faq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faqs_section .faqm .faq .info{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.faqs_section .faqm .faq i{
+    font-size: 1.4rem;
+}
+.faqs_section .faqm .faq:nth-of-type(2){
+    border-top: 0.01rem solid #6c6e6e;
+    border-bottom: 0.01rem solid #6c6e6e;
+    padding: 0.9rem 0;
+}
